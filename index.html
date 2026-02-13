@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Subhadra Report Assistant for Bargarh</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 2.2em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+
+        .last-updated {
+            color: #999;
+            font-size: 0.9em;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #764ba2;
+            font-size: 1.5em;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        h2:first-of-type {
+            margin-top: 0;
+        }
+
+        h3 {
+            color: #555;
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul {
+            margin: 15px 0 15px 30px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .highlight-box {
+            background: #f8f9ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .permission-item {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 6px;
+        }
+
+        .permission-item strong {
+            color: #667eea;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .contact-box {
+            background: #764ba2;
+            color: white;
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .contact-box h2 {
+            color: white;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .contact-box p {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #f0f0f0;
+            color: #999;
+            font-size: 0.9em;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            margin-right: 8px;
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            h2 {
+                font-size: 1.3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy</h1>
+            <p class="subtitle">Subhadra Report Assistant for Bargarh</p>
+            <p class="last-updated">Last Updated: February 13, 2026</p>
+        </header>
+
+        <main>
+            <h2>1. OVERVIEW</h2>
+            <p>This Chrome extension ("Subhadra Report Assistant for Bargarh") is designed for internal use by authorized district officials to automate the collection and synchronization of Subhadra Yojana scheme data. This extension does not collect, store, or transmit any personal user data.</p>
+
+            <div class="highlight-box">
+                <strong>Key Privacy Commitment:</strong> We do NOT collect any user data. Your privacy and security are our top priorities.
+            </div>
+
+            <h2>2. DATA COLLECTION</h2>
+            <p><strong>We do NOT collect any user data.</strong></p>
+            <p>The extension does not:</p>
+            <ul>
+                <li>Collect personally identifiable information</li>
+                <li>Track user behavior or browsing history</li>
+                <li>Store user credentials or passwords</li>
+                <li>Use analytics or telemetry services</li>
+                <li>Send data to any third-party servers</li>
+                <li>Transmit data to the extension developer</li>
+            </ul>
+
+            <h2>3. DATA HANDLING</h2>
+            <p>How the extension works:</p>
+
+            <div class="permission-item">
+                <strong>Authentication Token Reading</strong>
+                <p>The extension reads the authentication token from the Subhadra portal (subhadra.odisha.gov.in) that you are already logged into. This token is used temporarily to make API requests and is never stored or transmitted elsewhere.</p>
+            </div>
+
+            <div class="permission-item">
+                <strong>Data Fetching</strong>
+                <p>The extension fetches Field Verification and eKYC data from official government APIs (subhadra-api-dept.odisha.gov.in) using your authenticated session.</p>
+            </div>
+
+            <div class="permission-item">
+                <strong>Data Writing</strong>
+                <p>Fetched data is written directly to your designated Google Sheet using a service account. No data is sent to any developer-owned server.</p>
+            </div>
+
+            <div class="permission-item">
+                <strong>Local Processing</strong>
+                <p>All data processing happens locally in your browser. No information leaves your device except to write to your Google Sheet.</p>
+            </div>
+
+            <h2>4. PERMISSIONS USAGE</h2>
+            <p>The extension requires the following permissions:</p>
+
+            <h3>activeTab</h3>
+            <ul>
+                <li><strong>Purpose:</strong> To read the session authentication token from the currently open Subhadra portal tab</li>
+                <li><strong>Usage:</strong> Only activated when you click the extension icon while on subhadra.odisha.gov.in</li>
+            </ul>
+
+            <h3>scripting</h3>
+            <ul>
+                <li><strong>Purpose:</strong> To access browser LocalStorage to retrieve your login token</li>
+                <li><strong>Usage:</strong> Used only to read the authentication token from the Subhadra portal</li>
+            </ul>
+
+            <h3>downloads</h3>
+            <ul>
+                <li><strong>Purpose:</strong> To export reports as Excel (.xlsx) files</li>
+                <li><strong>Usage:</strong> Activated only when you click the "Download Excel" button</li>
+            </ul>
+
+            <h3>cookies</h3>
+            <ul>
+                <li><strong>Purpose:</strong> To verify if you are currently logged into the Subhadra portal</li>
+                <li><strong>Usage:</strong> Used to check login status before attempting data fetch</li>
+            </ul>
+
+            <h2>5. HOST PERMISSIONS</h2>
+            
+            <div class="permission-item">
+                <strong>subhadra.odisha.gov.in</strong>
+                <ul>
+                    <li>Official Subhadra Yojana portal</li>
+                    <li>Required to read authentication tokens</li>
+                </ul>
+            </div>
+
+            <div class="permission-item">
+                <strong>subhadra-api-dept.odisha.gov.in</strong>
+                <ul>
+                    <li>Official API endpoint for fetching dashboard data</li>
+                    <li>Required to retrieve Field Verification and eKYC statistics</li>
+                </ul>
+            </div>
+
+            <div class="permission-item">
+                <strong>sheets.googleapis.com</strong>
+                <ul>
+                    <li>Google Sheets API endpoint</li>
+                    <li>Required to write data to your tracking spreadsheet</li>
+                </ul>
+            </div>
+
+            <div class="permission-item">
+                <strong>oauth2.googleapis.com</strong>
+                <ul>
+                    <li>Google OAuth2 endpoint</li>
+                    <li>Required to authenticate service account for Google Sheets access</li>
+                </ul>
+            </div>
+
+            <h2>6. THIRD-PARTY SERVICES</h2>
+            
+            <h3>Google Sheets API</h3>
+            <ul>
+                <li>The extension uses Google Sheets API to write data to your spreadsheet</li>
+                <li>This interaction is governed by Google's Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
+                <li>The extension uses a service account with access only to the designated tracking spreadsheet</li>
+            </ul>
+
+            <h3>Government APIs</h3>
+            <ul>
+                <li>The extension accesses official Subhadra Yojana APIs operated by the Government of Odisha</li>
+                <li>All data accessed is official government data that you already have permission to view</li>
+            </ul>
+
+            <h2>7. DATA SECURITY</h2>
+            <ul>
+                <li>All API requests use HTTPS encryption</li>
+                <li>Authentication tokens are used temporarily and never stored permanently</li>
+                <li>Service account credentials are embedded securely within the extension</li>
+                <li>No user data is transmitted to external servers</li>
+            </ul>
+
+            <h2>8. DATA RETENTION</h2>
+            <p>The extension does not retain any user data. All operations are performed in real-time and no information is stored locally or remotely by the extension.</p>
+
+            <h2>9. CHILDREN'S PRIVACY</h2>
+            <p>This extension is designed for use by government officials and is not intended for use by children under the age of 13.</p>
+
+            <h2>10. CHANGES TO THIS PRIVACY POLICY</h2>
+            <p>We may update this privacy policy from time to time. Any changes will be reflected in the "Last Updated" date at the top of this policy. Continued use of the extension after changes constitutes acceptance of the updated policy.</p>
+
+            <div class="contact-box">
+                <h2>11. CONTACT INFORMATION</h2>
+                <p>For questions or concerns about this privacy policy or the extension's data practices, please contact:</p>
+                <p><strong>District Administration, Bargarh</strong></p>
+                <p>Email: [Your official email]</p>
+                <p>Website: [Your department website]</p>
+            </div>
+
+            <h2>12. COMPLIANCE</h2>
+            <p>This extension complies with:</p>
+            <div style="margin: 15px 0;">
+                <span class="badge">Chrome Web Store Developer Program Policies</span>
+                <span class="badge">Google API Services User Data Policy</span>
+                <span class="badge">Information Technology Act, 2000 (India)</span>
+            </div>
+
+            <h2>13. USER RIGHTS</h2>
+            <p>Since this extension does not collect or store any user data, there is no personal data to access, modify, or delete. Users can uninstall the extension at any time through Chrome's extension management interface.</p>
+
+            <div class="highlight-box">
+                <strong>Acknowledgment:</strong> By installing and using this extension, you acknowledge that you have read and understood this Privacy Policy.
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 District Administration, Bargarh. All rights reserved.</p>
+            <p>This extension is for official government use only.</p>
+        </footer>
+    </div>
+</body>
+</html>
